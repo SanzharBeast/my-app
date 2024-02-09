@@ -1,9 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
- @font-face {
-   font-family: 'APEX';
-   src: url("C:/Users/777/Desktop/React/my-app/src/assets/Fonts-20240126T103012Z-001/Fonts/ApexMk2-LightCondensed.otf") format('ttf');
- }
   .cont {
    display: flex;
    justify-content: space-around;
