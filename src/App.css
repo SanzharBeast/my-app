@@ -1,38 +1,325 @@
-.App {
-  text-align: center;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ @font-face {
+   font-family: 'APEX';
+   src: url("C:/Users/777/Desktop/React/my-app/src/assets/Fonts-20240126T103012Z-001/Fonts/ApexMk2-LightCondensed.otf") format('ttf');
+ }
+  .cont {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #C6C6C6;
+   min-height: 50px;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .cont a {
+   color: #ABA9BB;
+   text-decoration: none;
+   font-family: 'Apex';
+   font-weight: 500;
+   font-size: 20px;
+   font-family: 'APEX';
+   transition: 1s;
+ }
+
+ .Footer {
+   background-color: #C6C6C6;
+   height: 50px;
+ }
+
+ .Footer p {
+   color: #5F5C6D;
+ }
+
+ .Personality {
+   display: flex;
+ }
+
+ .profile {
+   background-color: gray;
+   -webkit-animation: postAnimation 4s infinite ease-in-out alternate;
+ }
+
+ .person {
+   margin-left: 50px;
+ }
+ @keyframes postAnimation{
+  0%{
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.218);
   }
-}
+  25%{
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.366);
+  }
+  50%{
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.57);
+  }
+  75%{
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.752);
+  }
+  100%{
+    border-radius: 0;
+    background-color: gray;
+  }
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .person p {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .person h3 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .btn1 {
+   height: 40px;
+   width: 100px;
+   color: blue;
+   border-color: rgb(0, 123, 255);
+   background-color: aliceblue;
+   border-radius: 10%;
+   font-family: 'Rubik Mono One', monospace;
+ }
+
+ .btn2 {
+   color: whitesmoke;
+   height: 40px;
+   width: 100px;
+   background-color: rgb(74, 74, 255);
+   border-radius: 10%;
+   font-family: 'Rubik Mono One', monospace;
+ }
+
+ .num {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .btn2:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #3a7999;
+   box-shadow: inset 0 0 0 3px #3a7999;
+ }
+
+ .btn1:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #3a7999;
+ }
+
+ .bt {
+   background-color: rgb(0, 0, 137);
+   width: 70px;
+   height: 25px;
+   font-family: 'Kanit', sans-serif;
+   font-size: medium;
+   color: #FFF;
+ }
+
+ .bt:hover {
+   background: white;
+   color: blue;
+ }
+
+ .f1 {
+   display: flex;
+   background-color: ghostwhite;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+
+ .fr3 {
+   display: flex;
+   background-color: ghostwhite;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+
+ .fr2 {
+   display: flex;
+   background-color: ghostwhite;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+
+ .fr4 {
+   display: flex;
+   font-family: 'Lato', sans-serif;
+   background-color: ghostwhite;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+
+ .inp {
+   height: 20px;
+   width: 200px;
+ }
+
+ .send {
+   width: 150px;
+   height: 30px;
+   background-color: whitesmoke;
+ }
+
+ .btr {
+   display: flex;
+ }
+
+ .send:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #3a7999;
+ }
+
+ .ppost {
+   display: flex;
+   flex-direction: column;
+   margin: 40px auto;
+   box-shadow: 0px 0px 15px 2px #5E5E5E;
+   border-radius: 2.5%;
+   width: 60%;
+   padding: 20px;
+   background-color: #E3E0F3;
+ }
+
+ .ppost h1 {
+   font-family: 'Russo One', sans-serif;
+   color: #C6C6C6;
+ }
+
+ .ppost p {
+   font-family: 'Montserrat Alternates', sans-serif;
+   color: #C6C6C6;
+ }
+
+ .cont a:hover {
+   color: black;
+   background-color: #ABA9BB;
+   box-shadow: 0 0;
+ }
+
+ .buttn {
+   color: #5E5E5E;
+   font-family: 'Young Serif', serif;
+   font-size: medium;
+   width: 100%;
+   background-color: whitesmoke;
+   box-shadow: 0px 0px 19px 5px rgb(141, 130, 130);
+   border-radius: 10px;
+   height: 30px;
+   transition: .5s;
+ }
+
+ .butttons {
+   display: flex;
+  gap: 10px;
+  width: 100%;
+ }
+
+ h2 {
+  font-family: 'Russo One', sans-serif;
+ }
+
+ .buttn:hover {
+   color: #FFF;
+   background-color: gray;
+ }
+ .buttn1{
+  color: #5E5E5E;
+  font-family: 'Young Serif', serif;
+  font-size: medium;
+  width: 100%;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 19px 5px rgb(141, 130, 130);
+  border-radius: 10px;
+  height: 30px;
+  transition: .5s;
+}
+.buttn1:hover {
+  color: #FFF;
+  background-color: gray;
+}
+.friendsDiv{
+  margin: 30px ;
+  width: 90%;
+  box-shadow: 0px 0px 10px 15px slategray;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 30px;
+}
+.search{
+  display: flex;
+  gap: 10px;
+}
+.inp{
+  width: 300px;
+  height: 20px;
+}
+.form-btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  font-family: 'Anton', sans-serif; 
+  box-shadow: 0px 0px 17px 10px gainsboro;
+  transition: 1s;
+}
+.form-btn:hover{
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.form-post textarea{
+  resize: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form-input1{
+  font-family: 'Archivo Black', sans-serif;
+  width: 110px;
+  margin: 10px;
+  display: flex;
+  gap: 5px;
+}
+.form-input2{
+  font-family: 'Archivo Black', sans-serif;
+  height: 210px;
+  margin: 10px;
+}
+.form-input1 input{
+  font-family: 'Archivo Black', sans-serif;
+  width: 210px;
+  border-radius: 10px;
+}
+.delete-btn{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 270px;
+}
+@media(max-width:480px){
+  .cont{
+      display: flex;
+      justify-content: flex-start;
+      gap: 30px;
   }
-  to {
-    transform: rotate(360deg);
+  .buttn1{
+    font-size: 12px;
+
+  }
+  .buttn{
+    font-size: 12px;
+  }
+  .delete-btn{
+    margin: 0;
+  }
+  .delete-img img{
+    width: 30px;
+  }
+}
+@media(max-width:320px){
+  .cont{
+      display: flex;
+      flex-direction: column;
+  }
+  .buttn1{
+    font-size: 12px;
+
+  }
+  .buttn{
+    font-size: 12px;
   }
 }
